@@ -1,0 +1,88 @@
+body {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    margin-top: -20px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(image/foto1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.box h2 {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-left: 44%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    
+}
+
+.box1 {
+    /* border: 2px solid white; */
+    max-width: 400px;
+    margin-left: 36%;
+    background-color:rgba(0, 0, 0,0.5) ;
+    /* opacity: 0.5; */
+    
+}
+
+
+
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: azure;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    /* font-weight: bold; */
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+.feedback {
+    font-size: 0.9em;
+    color: red;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #216b23;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'poppins';
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+button:active {
+    background-color: #1c8723;
+    color: rgb(255, 255, 255);
+}

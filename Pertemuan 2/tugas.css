@@ -197,8 +197,8 @@ section {
 }
 
 footer {
-    background-color: #000; /* Warna background hitam */
-    color: white; /* Warna teks putih agar kontras dengan background */
+    background-color: #000; 
+    color: white; 
     padding: 20px 0;
     text-align: center;
 }
